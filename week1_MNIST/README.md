@@ -1,4 +1,4 @@
-# Week 1: LeNet 논문 구현 및 실험 재현 (1998)
+# Week 1: LeNet 논문 구현 및 실험 재현
 
 > **Gradient-Based Learning Applied to Document Recognition**  
 > Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner (1998)
