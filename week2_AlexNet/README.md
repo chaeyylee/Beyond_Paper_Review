@@ -51,8 +51,7 @@ python train.py
 
 ## 📊 실험 결과 요약
 
-이번 실험은 **AlexNet**을 **CIFAR-10 데이터셋 (Subset 5천 개)** 기준으로 **10 Epoch** 학습하고,  
-Conv1 필터를 시각화한 결과를 재현한 것이다.
+이번 실험은 AlexNet을 CIFAR-10 데이터셋 (Subset 5천 개) 기준으로 10 Epoch 학습하고, Conv1 필터를 시각화한 결과를 재현한 것이다.
 
 | 항목 | 결과 |
 |------|------|
