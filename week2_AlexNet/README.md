@@ -62,6 +62,128 @@ Conv1 필터를 시각화한 결과를 재현한 것이다.
 | Test Top-5 Accuracy | 81.30% |
 | Conv1 필터 시각화 | 정상 출력됨 (96개 필터) |
 
+```bash
+🚀 [Start] Training begins...
+🖥️ Using device: cpu
+📦 Loading data...
+✅ Data loaded!
+
+📚 [Epoch 1/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.3020
+  🔄 Batch 6/40 | Loss: 2.3020
+  🔄 Batch 11/40 | Loss: 2.3032
+  🔄 Batch 16/40 | Loss: 2.3024
+  🔄 Batch 21/40 | Loss: 2.3048
+  🔄 Batch 26/40 | Loss: 2.3017
+  🔄 Batch 31/40 | Loss: 2.3029
+  🔄 Batch 36/40 | Loss: 2.3020
+📊 Epoch 1 Summary: Loss = 92.106, Accuracy = 10.36%
+
+📚 [Epoch 2/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.3039
+  🔄 Batch 6/40 | Loss: 2.3024
+  🔄 Batch 11/40 | Loss: 2.3024
+  🔄 Batch 16/40 | Loss: 2.3008
+  🔄 Batch 21/40 | Loss: 2.3033
+  🔄 Batch 26/40 | Loss: 2.3055
+  🔄 Batch 31/40 | Loss: 2.2993
+  🔄 Batch 36/40 | Loss: 2.3072
+📊 Epoch 2 Summary: Loss = 92.071, Accuracy = 10.50%
+
+📚 [Epoch 3/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.3033
+  🔄 Batch 6/40 | Loss: 2.3005
+  🔄 Batch 11/40 | Loss: 2.2972
+  🔄 Batch 16/40 | Loss: 2.3041
+  🔄 Batch 21/40 | Loss: 2.3052
+  🔄 Batch 26/40 | Loss: 2.3022
+  🔄 Batch 31/40 | Loss: 2.3028
+  🔄 Batch 36/40 | Loss: 2.3000
+📊 Epoch 3 Summary: Loss = 92.068, Accuracy = 10.90%
+
+📚 [Epoch 4/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.2936
+  🔄 Batch 6/40 | Loss: 2.3068
+  🔄 Batch 11/40 | Loss: 2.3027
+  🔄 Batch 16/40 | Loss: 2.3038
+  🔄 Batch 21/40 | Loss: 2.3008
+  🔄 Batch 26/40 | Loss: 2.3007
+  🔄 Batch 31/40 | Loss: 2.3002
+  🔄 Batch 36/40 | Loss: 2.3001
+📊 Epoch 4 Summary: Loss = 92.000, Accuracy = 12.98%
+
+📚 [Epoch 5/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.3002
+  🔄 Batch 6/40 | Loss: 2.3016
+  🔄 Batch 11/40 | Loss: 2.2954
+  🔄 Batch 16/40 | Loss: 2.2917
+  🔄 Batch 21/40 | Loss: 2.2920
+  🔄 Batch 26/40 | Loss: 2.2955
+  🔄 Batch 31/40 | Loss: 2.2872
+  🔄 Batch 36/40 | Loss: 2.2966
+📊 Epoch 5 Summary: Loss = 91.662, Accuracy = 13.38%
+
+📚 [Epoch 6/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.2610
+  🔄 Batch 6/40 | Loss: 2.2653
+  🔄 Batch 11/40 | Loss: 2.2556
+  🔄 Batch 16/40 | Loss: 2.2337
+  🔄 Batch 21/40 | Loss: 2.2449
+  🔄 Batch 26/40 | Loss: 2.2313
+  🔄 Batch 31/40 | Loss: 2.2090
+  🔄 Batch 36/40 | Loss: 2.1690
+📊 Epoch 6 Summary: Loss = 89.078, Accuracy = 14.40%
+
+📚 [Epoch 7/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.1276
+  🔄 Batch 6/40 | Loss: 2.1064
+  🔄 Batch 11/40 | Loss: 2.1385
+  🔄 Batch 16/40 | Loss: 2.0993
+  🔄 Batch 21/40 | Loss: 2.1172
+  🔄 Batch 26/40 | Loss: 2.0983
+  🔄 Batch 31/40 | Loss: 2.0720
+  🔄 Batch 36/40 | Loss: 2.1556
+📊 Epoch 7 Summary: Loss = 85.073, Accuracy = 22.14%
+
+📚 [Epoch 8/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.1246
+  🔄 Batch 6/40 | Loss: 2.1395
+  🔄 Batch 11/40 | Loss: 2.1510
+  🔄 Batch 16/40 | Loss: 2.1531
+  🔄 Batch 21/40 | Loss: 2.0998
+  🔄 Batch 26/40 | Loss: 2.0598
+  🔄 Batch 31/40 | Loss: 2.1698
+  🔄 Batch 36/40 | Loss: 2.1197
+📊 Epoch 8 Summary: Loss = 83.934, Accuracy = 23.46%
+
+📚 [Epoch 9/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 2.1025
+  🔄 Batch 6/40 | Loss: 2.0536
+  🔄 Batch 11/40 | Loss: 2.0271
+  🔄 Batch 16/40 | Loss: 2.1097
+  🔄 Batch 21/40 | Loss: 2.0795
+  🔄 Batch 26/40 | Loss: 2.0356
+  🔄 Batch 31/40 | Loss: 2.0720
+  🔄 Batch 36/40 | Loss: 1.9891
+📊 Epoch 9 Summary: Loss = 82.367, Accuracy = 23.42%
+
+📚 [Epoch 10/10] ------------------------------
+  🔄 Batch 1/40 | Loss: 1.9900
+  🔄 Batch 6/40 | Loss: 1.9712
+  🔄 Batch 11/40 | Loss: 1.9378
+  🔄 Batch 16/40 | Loss: 1.9652
+  🔄 Batch 21/40 | Loss: 1.9481
+  🔄 Batch 26/40 | Loss: 2.0471
+  🔄 Batch 31/40 | Loss: 1.9105
+  🔄 Batch 36/40 | Loss: 1.9957
+📊 Epoch 10 Summary: Loss = 80.209, Accuracy = 25.82%
+
+🧪 Running evaluation on test set...
+✅ [Test Results] Top-1 Accuracy: 26.70%, Top-5 Accuracy: 81.30%
+🎉 [Done] Training complete!
+🖼️ Visualizing Conv1 filters...
+```
+
 ---
 
 ### 1. 학습 진행 해석
